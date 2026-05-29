@@ -13,8 +13,9 @@
     "dev": "turbo run dev",
     "dev:ext": "turbo run dev --filter=@terramap/extension",
     "dev:web": "turbo run dev --filter=@terramap/web",
-    "dev:labs": "turbo run dev --filter=@terramap/labs",
+    "dev:dashboard": "turbo run dev --filter=@terramap/dashboard",
     "dev:ext-class": "turbo run dev --filter=@terramap/extension-classic",
+    "dev:ext-agent": "turbo run dev --filter=@terramap/extension-agent",
     "build": "turbo run build",
     "compile": "turbo run compile",
     "lint": "turbo run lint"

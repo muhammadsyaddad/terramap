@@ -1,0 +1,42 @@
+{
+  "name": "@terramap/dashboard",
+  "description": "Visual dashboard for scraped TerraMap data (kepler.gl map + table + CSV/XLSX export)",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "compile": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "@terramap/supabase": "workspace:*",
+    "@terramap/types": "workspace:*",
+    "@terramap/ui": "workspace:*",
+    "@kepler.gl/actions": "^3.2.6",
+    "@kepler.gl/components": "^3.2.6",
+    "@kepler.gl/reducers": "^3.2.6",
+    "maplibre-gl": "^4.7.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-map-gl": "^7.1.7",
+    "react-palm": "^3.3.8",
+    "react-redux": "^8.1.3",
+    "redux": "^4.2.1",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@terramap/config": "workspace:*",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3",
+    "vite": "^6.3.5"
+  }
+}
